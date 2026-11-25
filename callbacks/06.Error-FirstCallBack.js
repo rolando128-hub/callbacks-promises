@@ -13,8 +13,7 @@ console.log("Buscando producto con ID: " + id + "...");
 setTimeout(function() { 
 // Validamos si el ID es inválido 
 if (id <= 0) { 
-// Llamamos al callback pasando el mensaje de error en el primer 
-argumento 
+// Llamamos al callback pasando el mensaje de error en el primer argumento 
 callback("El ID del producto debe ser un número mayor a cero.", null); 
 } else { 
 var productoEncontrado = { 
@@ -22,8 +21,7 @@ id: id,
 nombre: "Monitor 24 pulgadas", 
 precio: 3200 
 }; 
-// Llamamos al callback pasando null como error, y el objeto como segundo 
-argumento 
+// Llamamos al callback pasando null como error, y el objeto como segundo argumento 
 callback(null, productoEncontrado); 
 } 
 }, 1000); 
@@ -31,4 +29,4 @@ callback(null, productoEncontrado);
 // Caso 1: Búsqueda exitosa 
 buscarProductoPorId(10, gestionarRespuesta); 
 // Caso 2: Búsqueda fallida 
-buscarProductoPorId(-5, gestionarRespuesta);
+buscarProductoPorId(-5, gestionarRespuesta); 

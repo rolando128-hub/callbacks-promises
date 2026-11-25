@@ -34,4 +34,4 @@ console.log("Materia: " + reporte.materia + " | Promedio: " +
 reporte.promedio); 
 }); 
 }); 
-});
+}); 

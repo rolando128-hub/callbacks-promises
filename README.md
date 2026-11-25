@@ -9,7 +9,9 @@ el modelo de ejecucion de js es de u solo hilo principal(single-threaded):solo s
 operaciones sincronas:las tareas se jecutanuna tras otra .
 operaciones asincronas:una tarea que se inicia ahora,pero cuyo resultado se obtendra en el futuo.
 
-Call Stack,Call Back Queue y MicroTask,Entorno y Event loop(Bucle de eventos)1. CallBack (Llamada de Retorno): Es una función que se pasa a otra como argumento con la intención de que la función receptora la invoque en algún momento de su propio cuerpo.
+Call Stack,Call Back Queue y MicroTask,Entorno y Event loop(Bucle de eventos)
+
+01. CallBack (Llamada de Retorno): Es una función que se pasa a otra como argumento con la intención de que la función receptora la invoque en algún momento de su propio cuerpo.
 
 1. Declarar una función: Definimos que hace, pero aún no se ejucta.
 2. Ivocar una función: Usamos paréntesis para que corra AHORA MISMO.
@@ -25,3 +27,4 @@ Es un objeto de JS, que representan la eventual finalización (con un éxito o c
 
 1. Crear promesas: new Promise()
 2. Consumir promesas: .then(), catch(), finally()
+

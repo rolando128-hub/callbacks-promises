@@ -9,4 +9,4 @@ function calcularPrecioConIVA(precioBase, callbackMostrar){
     callbackMostrar(total);
 }
 
-calcularPrecioConIVA(100, mostrarTotal());
+calcularPrecioConIVA(100, mostrarTotal);
